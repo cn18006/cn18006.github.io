@@ -1,0 +1,36 @@
+<?php 
+
+//Esta vista es la página principal del sitio web.
+//Acá se brinda información acerca de las generalidades del sitio, su propósito y utilidad.
+
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Santos Ch&aacute;vez | Inicio</title>
+    <link rel="shortcut icon" href="../img/ico.png" />
+    <meta http-equiv="Cache-control" content="public">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="author" content="Santos Vladimir Chávez Nolasco">
+    <meta name="keywords" content="Santos,Chávez,Vladimir,Nolasco,Santos Chávez,santoschavezn,santos,chavez,vladimir,nolasco,santos chávez,chavez,santos chavez,universitario,ingeniero,Santos Chávez universitario,Universitario Santos Chávez,Biografía,Biografía de Santos Chávez">
+    <meta name="description" content="Esta es la página inicial de la página web de Santos Chávez. Este sitio web tiene el propósito de ofrecerte conocimiento desde la perspectiva de Santos Ch�vez.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <?php 
+            //Se manda a llamar al menú de la vista.
+            include 'nav.php' ?>
+        </div>
+    </header>
+    <br>
+    <center><h1>Este es el inicio de la p&aacute;gina web de Santos Ch&aacute;vez.</h1></center>
+</body>
+<?php 
+//Se manda a llamar el footer de la vista.
+include 'footer.php' ?>
+</html>
+<?php ?>
