@@ -1,9 +1,3 @@
-<?php 
-
-//Esta vista es la página principal del sitio web.
-//Acá se brinda información acerca de las generalidades del sitio, su propósito y utilidad.
-
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -29,8 +23,4 @@
     <br>
     <center><h1>Este es el inicio de la p&aacute;gina web de Santos Ch&aacute;vez.</h1></center>
 </body>
-<?php 
-//Se manda a llamar el footer de la vista.
-include 'footer.php' ?>
 </html>
-<?php ?>
